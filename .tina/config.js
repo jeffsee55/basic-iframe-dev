@@ -10,6 +10,9 @@ import React from "react";
 // console.log("isit?", ReactIs.isValidElementType("div"));
 
 export default defineStaticConfig({
+  branch: "main",
+  clientId: "302d953f-2fdf-449a-88ac-b75ee95f6ac1",
+  token: "7c852f1d6d6e7486c1051f0d1f6bdf44bbf724f4",
   build: {
     outputFolder: "tina",
     publicFolder: "public",
